@@ -1,7 +1,9 @@
 {
-    "name": "mickael/zenith",
+    "name": "louzet/zenora",
+    "description": "A themed PHP CLI toolkit with attributes, task runner, progress bars, and widgets",
     "type": "library",
     "license": "MIT",
+    "keywords": ["cli", "terminal", "progress", "spinner", "table", "command", "attributes"],
     "authors": [
         {
             "name": "mlouzet",
@@ -10,8 +12,19 @@
     ],
     "autoload": {
         "psr-4": {
-            "Mickael\\Zenith\\": "src/"
+            "Zenora\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zenora\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12"
+    },
+    "scripts": {
+        "test": "phpunit"
     },
     "require": {}
 }
