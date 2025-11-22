@@ -1,10 +1,10 @@
 ## Zenora CLI Toolkit (v0.1)
 
-Zenora is a PHP 8.1+ toolkit to build rich CLIs quickly: attributes for commands/options, a configurable task runner with fiber-friendly spinner/progress bar, styled tables, interactive selects, and themed output.
+Zenora is a PHP 8.3+ toolkit to build rich CLIs quickly: attributes for commands/options, a configurable task runner with fiber-friendly spinner/progress bar, styled tables, interactive selects, and themed output.
 
 ### Install
 ```bash
-composer require zenora/zenora
+composer require louzet/zenora
 ```
 
 ### Quick start
