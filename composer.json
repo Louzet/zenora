@@ -1,0 +1,17 @@
+{
+    "name": "mickael/zenith",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mlouzet",
+            "email": "micklouzet@hotmail.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mickael\\Zenith\\": "src/"
+        }
+    },
+    "require": {}
+}
